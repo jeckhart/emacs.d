@@ -24,6 +24,9 @@
 ;; This also sets the load path.
 (package-initialize)
 
+(require 'pallet)
+(pallet-mode t)
+
 ;; Download the ELPA archive description if needed.
 ;; This informs Emacs about the latest versions of all packages, and
 ;; makes them available for download.
