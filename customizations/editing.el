@@ -52,6 +52,7 @@
 (global-set-key (kbd "C-;") 'toggle-comment-on-line)
 
 ;; yay rainbows!
+(add-hook 'prog-mode-hook #'rainbow-delimiters-mode)
 ;; (global-rainbow-delimiters-mode t)
 
 ;; use 2 spaces for tabs
